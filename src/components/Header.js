@@ -22,7 +22,7 @@ const Header = ({ y }) => {
 
   return (
     <header
-      className={`sticky top-0 px-4 lg:px-8 py-6 flex justify-between items-center sm:tracking-normal md:tracking-wide lg:tracking-wider duration-200 shadow-sm ${
+      className={`sticky top-0 z-[10] px-4 lg:px-8 py-6 flex justify-between items-center sm:tracking-normal md:tracking-wide lg:tracking-wider duration-200 shadow-sm ${
         y > 0 ? "bg-blue-950" : "bg-transparent"
       }`}
     >

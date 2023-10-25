@@ -1,9 +1,5 @@
 import React from "react";
-import {
-    AiFillGithub,
-    AiFillShopping,
-    AiOutlineOrderedList,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillShopping, AiOutlineOrderedList } from "react-icons/ai"
 import { CgProfile } from "react-icons/cg";
 
 const Projects = () => {
@@ -32,9 +28,9 @@ const Projects = () => {
         className="bg-white mx-6 rounded-md p-4 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105 duration-300 ease-in-out"
       >
         <div className="flex flex-col items-center">
-          <div className="text-3xl text-cyan-600">{project.icon}</div>
+          <div className="text-3xl text-cyan-400">{project.icon}</div>
           <h2 className="text-2xl font-semibold mt-2">{project.name}</h2>
-          <p className="text-gray-600 text-center mt-2">
+          <p className="text-blue-900 text-center mt-2">
             {project.description}
           </p>
         </div>
@@ -45,11 +41,12 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col min-h-screen py-20 gap-2 lg:gap-10"
+      className="flex flex-col min-h-screen py-20 gap-4 lg:gap-8"
     >
-      <div className="flex flex-col text-center gap-2">
+      <div className="flex flex-col text-center gap-4">
         <div className="relative mx-6">
-          <div className="before:absolute before:right-0 before:top-0 before:h-1.5 before:w-2/3 before:bg-cyan-400 after:absolute after:left-0 after:bottom-0 after:h-1.5 after:w-2/3 after:bg-cyan-400 py-6 lg:py-8">
+          <div className="before:absolute before:right-0 before:top-0 before:h-1.5 before:w-2/3 before:bg-cyan-400 
+          after:absolute after:left-0 after:bottom-0 after:h-1.5 after:w-2/3 after:bg-cyan-400 py-6 lg:py-8">
             <h2 className="font-semibold text-2xl sm:text-4xl md:text-6xl">
               My Projects
             </h2>
@@ -76,7 +73,7 @@ const Projects = () => {
       </div>
 
       {/* project links */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 py-14 lg:justify-center">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {renderProjects(projects)}
       </div>
     </section>
