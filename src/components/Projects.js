@@ -8,20 +8,22 @@ const Projects = () => {
   const projects = [
     {
       name: "Task Management App",
-      description: "A productivity tool for organizing tasks",
+      description:
+        "A productivity tool for organizing, creating, and finishing simple tasks. Created with React",
       icon: <AiOutlineOrderedList className="w-16 h-16" />,
       link: "https://willyv-todo.vercel.app/",
     },
     {
       name: "POS",
-      description: "Point Of Sale System created using Svelte",
+      description:
+        "Point Of Sale System for restaurants or inventory based companies. Created with Svelte",
       icon: <MdPointOfSale className="w-16 h-16" />,
       link: "https://github.com/willyvcodes/POS-System",
     },
     {
       name: "Simple Chat",
       description:
-        "Chat using websockets, interacts with mongoDB. Modern messages UI",
+        "A simple Chat application with user login/signup, with modern message UI using tailwindCSS",
       icon: <IoMdChatbubbles className="w-16 h-16" />,
       link: "https://github.com/willyvcodes/simpleChat",
     },
