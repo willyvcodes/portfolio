@@ -1,6 +1,8 @@
 import React from "react";
 import { AiFillGithub, AiOutlineOrderedList } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
+import { MdPointOfSale } from "react-icons/md";
+import { IoMdChatbubbles } from "react-icons/io";
 
 const Projects = () => {
   const projects = [
@@ -11,10 +13,17 @@ const Projects = () => {
       link: "https://willyv-todo.vercel.app/",
     },
     {
-      name: "Portfolio Website",
-      description: "This website you're currently exploring",
-      icon: <CgProfile className="w-16 h-16" />,
-      link: "/",
+      name: "POS",
+      description: "Point Of Sale System created using Svelte",
+      icon: <MdPointOfSale className="w-16 h-16" />,
+      link: "https://github.com/willyvcodes/POS-System",
+    },
+    {
+      name: "Simple Chat",
+      description:
+        "Chat using websockets, interacts with mongoDB. Modern messages UI",
+      icon: <IoMdChatbubbles className="w-16 h-16" />,
+      link: "https://github.com/willyvcodes/simpleChat",
     },
   ];
 
