@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "Point Of Sale System for restaurants or inventory based companies. Created with Svelte",
       icon: <MdPointOfSale className="w-16 h-16" />,
-      link: "https://github.com/willyvcodes/POS-System",
+      link: "https://pos-epua.onrender.com",
     },
     {
       name: "Simple Chat",
