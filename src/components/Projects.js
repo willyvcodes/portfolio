@@ -7,11 +7,10 @@ import { IoMdChatbubbles } from "react-icons/io";
 const Projects = () => {
   const projects = [
     {
-      name: "Task Management App",
-      description:
-        "A productivity tool for organizing, creating, and finishing simple tasks. Created with React",
+      name: "SayQR",
+      description: "simple page that takes your text and generates a URL embedded in a QR code for easy access",
       icon: <AiOutlineOrderedList className="w-16 h-16" />,
-      link: "https://willyv-todo.vercel.app/",
+      link: "https://sayqr.vercel.app",
     },
     {
       name: "POS",
